@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <script src="https://kit.fontawesome.com/fc37d91b53.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <button class="playBtn"><i class="fas fa-play"></i></button>
+    <div class="timer">00:00</div>
+    <div class="count">0</div>
+    <div class="popup"><button class="redoBtn"><i class="fas fa-redo"></i></button>Replay❓</div>
+    <div class="field"></div>
+    <!-- <iframe src="sound/bg.mp3" allow="autoplay"></iframe> -->
+    <audio class="sound" autoplay="autoplay">
+        <source class="audioSource" src="sound/bg.mp3" type="audio/mp3">
+    </audio>
+    <audio class="carrotSound" autoplay="autoplay">
+        <source src="sound/carrot_pull.mp3" type="audio/mp3">
+    </audio>
+    <audio class="bugSound" autoplay="autoplay">
+        <source src="sound/bug_pull.mp3" type="audio/mp3">
+    </audio>
+    <audio class="winSound" autoplay="autoplay">
+        <source src="sound/game_win.mp3" type="audio/mp3">
+    </audio>
+    <audio class="alertSound" autoplay="autoplay">
+        <source src="sound/alert.wav" type="audio/wav">
+    </audio>
+</body>
+</html>
