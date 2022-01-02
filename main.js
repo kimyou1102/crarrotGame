@@ -116,6 +116,7 @@ function timerStart() {
             gamestop(message);
         } else if(time < 0) {
             clearInterval(timeCount);
+            alertSound.play();
             let message = 'YOU LOST💩';
             gamestop(message);
         }
